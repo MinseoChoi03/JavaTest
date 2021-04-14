@@ -6,6 +6,7 @@ public class Two_out_and_Plus2 {
 	public int[] solution(int[] numbers) {
 		int[] answer = {};
 		Set<Integer> tmp = new TreeSet<>();
+		//Set = 객체(데이터) 중복 저장 불가
 		//TreeSet = 자동 오름차순 저장
 		
 		for(int i = 0; i < numbers.length-1; i++) {
